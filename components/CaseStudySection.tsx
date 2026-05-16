@@ -7,8 +7,8 @@ type CaseStudySectionProps = {
 export function CaseStudySection({ title, children, items }: CaseStudySectionProps) {
   return (
     <section className="border-t border-zinc-200 py-8 dark:border-zinc-800">
-      <div className="grid gap-5 lg:grid-cols-[220px_1fr]">
-        <h2 className="text-sm font-semibold uppercase tracking-[0.16em] text-zinc-500">
+      <div className="grid gap-4 lg:grid-cols-[180px_1fr]">
+        <h2 className="text-base font-semibold text-zinc-950 dark:text-zinc-50">
           {title}
         </h2>
         <div>

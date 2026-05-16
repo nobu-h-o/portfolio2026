@@ -11,7 +11,7 @@ export function PageHeader({ eyebrow, title, description }: PageHeaderProps) {
     <Container className="pb-10 pt-12 sm:pb-14 sm:pt-16">
       <div className="max-w-3xl">
         {eyebrow && (
-          <p className="mb-3 text-xs font-medium uppercase tracking-[0.18em] text-accent-600 dark:text-accent-500">
+          <p className="mb-3 text-sm font-medium text-accent-600 dark:text-accent-500">
             {eyebrow}
           </p>
         )}

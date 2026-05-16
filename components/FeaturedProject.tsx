@@ -8,10 +8,10 @@ type FeaturedProjectProps = {
 
 export function FeaturedProject({ project }: FeaturedProjectProps) {
   return (
-    <article className="border border-zinc-200 bg-white p-5 dark:border-zinc-800 dark:bg-zinc-950 sm:p-6">
+    <article className="rounded-md border border-zinc-200 bg-white p-5 transition hover:border-zinc-300 hover:bg-zinc-50 dark:border-zinc-800 dark:bg-zinc-950 dark:hover:border-zinc-700 dark:hover:bg-zinc-900 sm:p-6">
       <div className="flex h-full flex-col">
         <div>
-          <p className="text-xs font-medium uppercase tracking-[0.16em] text-accent-600 dark:text-accent-500">
+          <p className="text-xs font-medium text-accent-600 dark:text-accent-500">
             {project.status}
           </p>
           <h3 className="mt-3 text-lg font-semibold text-zinc-950 dark:text-zinc-50">

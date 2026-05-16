@@ -31,7 +31,7 @@ export function ExperienceItem({ experience }: ExperienceItemProps) {
             <DetailList title="Learnings" items={experience.learnings} />
           </div>
           <div className="mt-6">
-            <p className="mb-3 text-xs font-medium uppercase tracking-[0.16em] text-zinc-500">
+            <p className="mb-3 text-xs font-medium text-zinc-500">
               Technologies
             </p>
             <TechStack items={experience.technologies} />
