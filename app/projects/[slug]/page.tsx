@@ -51,7 +51,7 @@ export default async function ProjectDetailPage({ params }: ProjectPageProps) {
         >
           Back to projects
         </Link>
-        <p className="mt-8 text-xs font-medium uppercase tracking-[0.18em] text-accent-600 dark:text-accent-500">
+        <p className="mt-8 text-sm font-medium text-accent-600 dark:text-accent-500">
           Project
         </p>
         <h1 className="mt-3 text-3xl font-semibold tracking-normal text-zinc-950 dark:text-zinc-50 sm:text-4xl">

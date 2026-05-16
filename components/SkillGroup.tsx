@@ -4,7 +4,10 @@ export function SkillGroups() {
   return (
     <div className="grid gap-6 md:grid-cols-3">
       {skillGroups.map((group) => (
-        <section key={group.title} className="border-t border-zinc-200 pt-5 dark:border-zinc-800">
+        <section
+          key={group.title}
+          className="rounded-md border border-zinc-200 bg-white p-5 dark:border-zinc-800 dark:bg-zinc-950"
+        >
           <h3 className="text-base font-semibold text-zinc-950 dark:text-zinc-50">
             {group.title}
           </h3>

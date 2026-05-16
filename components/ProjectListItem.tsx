@@ -15,7 +15,7 @@ export function ProjectListItem({ project }: ProjectListItemProps) {
         <div>
           <div className="flex flex-wrap items-start justify-between gap-3">
             <div>
-              <p className="text-xs font-medium uppercase tracking-[0.16em] text-accent-600 dark:text-accent-500">
+              <p className="text-xs font-medium text-accent-600 dark:text-accent-500">
                 {project.status}
               </p>
               <h2 className="mt-2 text-xl font-semibold text-zinc-950 dark:text-zinc-50">
@@ -38,9 +38,9 @@ export function ProjectListItem({ project }: ProjectListItemProps) {
             <ProjectMeta project={project} />
           </div>
         </div>
-        <aside className="space-y-5 lg:border-l lg:border-zinc-200 lg:pl-6 lg:dark:border-zinc-800">
+        <aside className="space-y-5 rounded-md bg-zinc-50 p-4 dark:bg-zinc-950 lg:bg-transparent lg:p-0 lg:dark:bg-transparent">
           <div>
-            <p className="mb-3 text-xs font-medium uppercase tracking-[0.16em] text-zinc-500">
+            <p className="mb-3 text-xs font-medium text-zinc-500">
               Stack
             </p>
             <TechStack items={project.techStack} />

@@ -36,9 +36,9 @@ export default function AboutPage() {
               <p className="text-sm leading-7 text-zinc-700 dark:text-zinc-300">
                 {profile.shortIntro}
               </p>
-              <dl className="mt-6 grid gap-5 border-y border-zinc-200 py-5 dark:border-zinc-800 sm:grid-cols-2">
-                <div>
-                  <dt className="text-xs font-medium uppercase tracking-[0.16em] text-zinc-500">
+              <dl className="mt-6 grid gap-3 sm:grid-cols-2">
+                <div className="rounded-md border border-zinc-200 bg-white p-4 dark:border-zinc-800 dark:bg-zinc-950">
+                  <dt className="text-xs font-medium text-zinc-500">
                     Education
                   </dt>
                   <dd className="mt-2 text-sm leading-6 text-zinc-800 dark:text-zinc-200">
@@ -47,8 +47,8 @@ export default function AboutPage() {
                     {profile.education.graduation}
                   </dd>
                 </div>
-                <div>
-                  <dt className="text-xs font-medium uppercase tracking-[0.16em] text-zinc-500">
+                <div className="rounded-md border border-zinc-200 bg-white p-4 dark:border-zinc-800 dark:bg-zinc-950">
+                  <dt className="text-xs font-medium text-zinc-500">
                     Languages
                   </dt>
                   <dd className="mt-2 text-sm leading-6 text-zinc-800 dark:text-zinc-200">

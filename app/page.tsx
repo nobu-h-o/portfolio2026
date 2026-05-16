@@ -37,8 +37,8 @@ export default function Home() {
           </div>
         </div>
         <aside className="border-l-0 border-zinc-200 pt-0 dark:border-zinc-800 lg:border-l lg:pl-8">
-          <p className="text-xs font-medium uppercase tracking-[0.18em] text-zinc-500">
-            Focus
+          <p className="text-sm font-semibold text-zinc-950 dark:text-zinc-50">
+            What I work on
           </p>
           <ul className="mt-5 space-y-4">
             {profile.focusAreas.map((area) => (

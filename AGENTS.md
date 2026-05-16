@@ -5,7 +5,7 @@
 ## Project Overview
 
 - 目的: GitHubプロフィールや履歴書から訪れた人に、人物像、技術力、制作物、インターン経験を短時間で伝える。
-- 方針: Resume + Project detail 型の、静かで実務寄りのポートフォリオ。
+- 方針: Profile + Project detail 型の、静かで実務寄りのポートフォリオ。履歴書の補足として読めるが、サイト単体では人物像と制作姿勢が自然に伝わることを重視する。
 - 避けること: 派手なLP風デザイン、テンプレートっぽい自己紹介、仮URL、未提供の連絡先、過剰な装飾。
 
 ## Tech Stack
@@ -39,12 +39,13 @@
 
 ## Design Rules
 
-- Keep the UI minimal and document-like.
+- Keep the UI minimal, readable, and calm, but avoid making the whole site feel like a plain resume table.
 - Use white/off-white backgrounds, gray/black text, and one accent color.
 - Avoid gradients, decorative backgrounds, large hero sections, and heavy animation.
 - Use cards only where they clarify repeated items.
 - Keep border radius modest and spacing deliberate.
 - Maintain dark mode support.
+- Prefer natural section titles, lightweight metadata, and readable groupings over heavy uppercase labels or dense definition-list layouts.
 
 ## Development Commands
 
