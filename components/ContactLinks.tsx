@@ -20,8 +20,8 @@ export function ContactLinks({ compact = false }: ContactLinksProps) {
           <Link
             key={item.label}
             href={item.href}
-            target={isExternal ? "_blank" : undefined}
-            rel={isExternal ? "noopener noreferrer" : undefined}
+            target={!isInternal ? "_blank" : undefined}
+            rel={!isInternal ? "noopener noreferrer" : undefined}
             className={cn(
               "inline-flex items-center gap-2 border border-zinc-300 text-sm font-medium text-zinc-800 transition hover:border-zinc-500 hover:text-zinc-950 dark:border-zinc-700 dark:text-zinc-200 dark:hover:border-zinc-500 dark:hover:text-zinc-50",
               compact ? "border-0 p-0" : "px-3 py-2",
